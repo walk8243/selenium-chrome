@@ -1,0 +1,21 @@
+{
+  "name": "selenium-chrome",
+  "description": "Node.js上でseleniumを使ってChromeを動かす",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "yarn run tsc --sourceMap false --removeComments true",
+    "build-debug": "yarn run tsc --build",
+    "start": "node dist/index.js"
+  },
+  "repository": "git@github.com:walk8243/selenium-chrome.git",
+  "author": "walk8243 <walk8243@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "selenium-webdriver": "^4.0.0-alpha.7"
+  },
+  "devDependencies": {
+    "@types/node": "^14.0.13",
+    "typescript": "^3.9.5"
+  }
+}
